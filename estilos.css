@@ -1,0 +1,121 @@
+
+body{
+background:#FFF8E5;
+justify-content:center;
+padding: 15px;
+}
+
+#imgcenter{
+ display:flex;
+justify-content:center;
+align-items:center;  
+width:100%;
+
+} 
+
+h5{
+  text-align: right;
+}
+
+
+  title{
+    font-size:40em;
+  }
+
+h1{
+  text-align:center;
+  box-shadow:0px 6px 3px #0931e0(0,0,0,.5);
+  font-size: 48px;
+  font-family: verdana;
+ }
+h2{
+ margin:1rem;
+  text-align:justify;
+  font-family:'Seogoe UI', tahoma, Geneva, Verdana, sans-serif;
+   font-size:large; }
+h3{
+ text-align:justify;
+  font-family:'Seogoe UI', tahoma, Geneva, Verdana, sans-serif;
+   font-size:large;
+ padding:15px;
+color:#ffffff;
+}
+ h4{
+  text-align:justify;
+  font-family:'Seogoe UI', tahoma, Geneva, Verdana, sans-serif;
+   font-size:large;
+ padding:15px;
+  color:#d6aa30;
+  border:2px solid #d6aa30;
+ }
+p{
+  text-align:justify;
+  font-family:'Seogoe UI', tahoma, Geneva, Verdana, sans-serif;      
+  font-size:medium;
+  text-align:justify;
+ padding:10px;
+}
+
+footer{
+background:#1B1A17;
+color:#F0F0CB;
+
+}
+
+.menu{list-style:none; 
+display:flex; /*Caja principal del menú*/
+flex-direction:row;
+justify-content:space-between;
+position:sticky;
+background:#FFF8E5;
+top:0;
+font-family:Arial, Helvetica, sans-serif;}
+
+.menu li{ padding:20px;}
+.menu li :hover{border:2px solid #d6aa30;}
+
+#space{ /*parte del menú que tiene los botones de inicio y aprende */
+display:flex;
+flex-direction:row;
+align-items: center;
+background-color:#1E3163;
+width:35%;
+justify-content: flex-end;
+}
+
+.foot{/*Caja principal del footer*/
+ list-style:none;
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+}
+#ladoiz{ /*parte del footer lado izquierdo*/
+display:flex;
+justify-content:space-around;
+align-items:flex-start;
+width:45%;
+}
+
+#ladoaba{display:flex;
+justify-content:flex-end;
+}
+
+.container{/*parte del contendor grid 50%*/
+display: grid;
+grid-template-columns:48% 48%;
+gap:2em;
+}
+
+.containerr{/*parte del contenedor grid 75 25*/
+display:grid;
+grid-template-columns:60% 30%;
+gap:5em
+}
+
+.flecha{
+position:fixed;
+bottom:25px;
+right:0%;
+}
+ .flecha:hover{ transform: scale(1.5); transition: 2s;}
